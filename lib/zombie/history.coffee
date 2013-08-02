@@ -231,10 +231,10 @@ class History
 
   # Resolve URL based on current page URL.
   _resolve: (url)->
-    if url
-      return URL.resolve(@_stack[@_index]?.url, url)
-    else # Yes, this could happen
-      return @_stack[@_index]?.url
+    #if url
+      #return URL.resolve(@_stack[@_index]?.url, url)
+    #else # Yes, this could happen
+      #return @_stack[@_index]?.url
 
   # Location uses this to move to a new URL.
   _assign: (url)->
